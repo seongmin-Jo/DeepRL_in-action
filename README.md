@@ -1,2 +1,4 @@
 # DeepRL_in-action
-code for Deep Reinforcement Learning Code
+Code for Deep Reinforcement Learning Code
+
+## Chapter 1
