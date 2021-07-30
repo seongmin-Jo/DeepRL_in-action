@@ -2,7 +2,6 @@ import numpy as np
 import gym
 
 class get_beset_action():
-    
     def __init__(self,  episodes):
         self.episodes = episodes
         
@@ -21,7 +20,6 @@ class get_beset_action():
                 actions[episode] = action
                 rewards += reward
             actions.tolist()
-    
         return actions, rewards
         
     def get_best_action(self, actions, rewards):
@@ -33,3 +31,24 @@ class get_beset_action():
                 best_action = action
                 max_action_value = cur_action_value
         return best_action
+
+    
+
+class Basic():
+    def __init__(self, x, action, history):
+        self.w = w
+        self.x = x
+        self.b = b
+        self.action = action
+        self.history = histoty
+             
+    def line(self, w, x, b):
+        result = self.w * self.x + self.b
+        return result
+    
+    def exp_reward(self):
+        rewards = histoy[action]
+        reult2 = sum(rewards) / len(rewards)
+        return result2
+        
+    
