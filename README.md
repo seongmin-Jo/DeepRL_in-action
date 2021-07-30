@@ -1,5 +1,5 @@
 # DeepRL_in-action
-Code for Deep Reinforcement Learning Code
+Code for Deep Reinforcement Learning in Action
 
 Rebuild code to make library and more fancy
 
