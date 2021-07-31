@@ -3,7 +3,7 @@
 Rebuild code for Deep Reinforcement Learning in Action to make library and more fancy
 
 
-
+'''
 def get_best_action(actions):
 	best_action = 0
 	max_action_value = 0
@@ -14,7 +14,7 @@ def get_best_action(actions):
 			max_action_value = cur_action_value
 	return best_action
 
-
+'''
 
 
 
