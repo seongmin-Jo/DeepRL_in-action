@@ -16,10 +16,13 @@ def get_best_action(actions):
 	return best_action
 ```
 
-They didn't define not only action, but also get_action_valuse and there are more than one such function
-Of course, there is no information about what is environment
+They didn't define not only action, but also get_action_valuse.
+
+Of course, there is no information about what is environment and there are more than one such function
 
 In this repistory, l will fill up Undefined function and make a library for basic RL
+
+You can change environment of gym which you want, all can use your customizing environment
 
 
 ## Chapter 2
